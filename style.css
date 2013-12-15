@@ -23,3 +23,10 @@
     position: relative;
     left: 300px;
 }
+
+.button{
+    border: aliceblue medium;
+    background-color: azure;
+    cursor: pointer;
+    text-align: center;
+}
