@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game</title>
+    <script src="lib/Game.js"></script>
+
+    <style type="text/css" media="all">@import "style.css";</style>
+
+</head>
+<body onkeydown="keyDown(event.keyCode)" onkeyup="keyUp(event.keyCode)" onload="drawStartArea()">
+<div class="gameArea">
+    <canvas id="canvas" width="800" height="600">Этот элемент не поддерживается</canvas>
+    <button id="startButton" onclick="StartGame()">Start</button>
+    <button id="stopButton" onclick="StopGame() ">Stop</button>
+    <span id="p1" class="life , p1"></span>
+    <span id="p2" class="life , p2"></span>
+
+
+</div>
+
+</body>
+</html>

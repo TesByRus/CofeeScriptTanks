@@ -1,0 +1,24 @@
+.gameArea{
+    width: 800px;
+    background: #2e2f2f;
+    border: solid 1px black;
+}
+
+.life{
+    background-color: azure;
+    font: 16pt;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.life.p1{
+    color: red;
+    position: absolute;
+    left: 300px;
+}
+
+.life.p2{
+    color: blue;
+    position: absolute;
+    left: 500px;
+}
